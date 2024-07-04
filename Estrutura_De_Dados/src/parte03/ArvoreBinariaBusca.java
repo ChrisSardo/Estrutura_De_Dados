@@ -91,7 +91,7 @@ public class ArvoreBinariaBusca {
         if (n != null) {
             s += imprimePos(n.getDir());//trata sae
             s += n.getInfo()+ " ";//trata raiz
-            s += imprimePos(n.getEsq());//trata sad. Para outras chamadas apenas trocar a ordem
+            s += imprimePos(n.getEsq());//tratas sad. Para outras chamadas apenas trocar a ordem
         }
         s += "";
         return s;
